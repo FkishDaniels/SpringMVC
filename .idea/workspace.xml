@@ -9,11 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae09f80e-e8e2-4fd2-a025-d0d41ce00ab9" name="Changes" comment="jdbc final updates fully crud ;)">
-      <change afterPath="$PROJECT_DIR$/.idea/magento2plugin.xml" afterDir="false" />
+    <list default="true" id="ae09f80e-e8e2-4fd2-a025-d0d41ce00ab9" name="Changes" comment="jdbcTamplate">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/daniil/springcourse/DAO/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/datebase.properties.origin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/daniil/springcourse/DAO/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/daniil/springcourse/DAO/PersonDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/daniil/springcourse/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/daniil/springcourse/config/SpringConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +75,26 @@
     ]
   }
 }</component>
+  <component name="RunManager" selected="Tomcat Server.Unnamed">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.daniil.springcourse.DAO.Test" />
+      <module name="SpringMVC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.daniil.springcourse.DAO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -91,7 +112,9 @@
       <workItem from="1680535029041" duration="8042000" />
       <workItem from="1680892030858" duration="573000" />
       <workItem from="1680892782628" duration="2366000" />
-      <workItem from="1681408445793" duration="2421000" />
+      <workItem from="1681408445793" duration="2744000" />
+      <workItem from="1681416022025" duration="1097000" />
+      <workItem from="1681827920761" duration="625000" />
     </task>
     <task id="LOCAL-00001" summary="Java classes instead xml files!">
       <created>1678740590919</created>
@@ -177,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680901340866</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="jdbcTamplate">
+      <created>1681411063718</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1681411063718</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +237,7 @@
     <MESSAGE value="Patch and Delete CRUD" />
     <MESSAGE value="jdbc" />
     <MESSAGE value="jdbc final updates fully crud ;)" />
-    <option name="LAST_COMMIT_MESSAGE" value="jdbc final updates fully crud ;)" />
+    <MESSAGE value="jdbcTamplate" />
+    <option name="LAST_COMMIT_MESSAGE" value="jdbcTamplate" />
   </component>
 </project>
