@@ -9,13 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae09f80e-e8e2-4fd2-a025-d0d41ce00ab9" name="Changes" comment="jdbcTamplate">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/daniil/springcourse/DAO/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/datebase.properties.origin" afterDir="false" />
+    <list default="true" id="ae09f80e-e8e2-4fd2-a025-d0d41ce00ab9" name="Changes" comment="Database properties">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/daniil/springcourse/controllers/BatchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/batch.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/daniil/springcourse/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/daniil/springcourse/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/daniil/springcourse/DAO/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/daniil/springcourse/DAO/PersonDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/daniil/springcourse/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/daniil/springcourse/controllers/PeopleController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -114,7 +113,12 @@
       <workItem from="1680892782628" duration="2366000" />
       <workItem from="1681408445793" duration="2744000" />
       <workItem from="1681416022025" duration="1097000" />
-      <workItem from="1681827920761" duration="625000" />
+      <workItem from="1681827920761" duration="1316000" />
+      <workItem from="1681852105965" duration="714000" />
+      <workItem from="1682277879277" duration="729000" />
+      <workItem from="1682361752413" duration="633000" />
+      <workItem from="1682614891860" duration="1258000" />
+      <workItem from="1682878705265" duration="1855000" />
     </task>
     <task id="LOCAL-00001" summary="Java classes instead xml files!">
       <created>1678740590919</created>
@@ -207,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681411063718</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Database properties">
+      <created>1681828640328</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1681828640328</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +249,7 @@
     <MESSAGE value="jdbc" />
     <MESSAGE value="jdbc final updates fully crud ;)" />
     <MESSAGE value="jdbcTamplate" />
-    <option name="LAST_COMMIT_MESSAGE" value="jdbcTamplate" />
+    <MESSAGE value="Database properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="Database properties" />
   </component>
 </project>
